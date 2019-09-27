@@ -1,4 +1,4 @@
 class Person
-  adele_goldberg = new.Person
-  alan_kay = new.Person
+  adele goldberg = new.Person
+  alan kay = new.Person
 end
