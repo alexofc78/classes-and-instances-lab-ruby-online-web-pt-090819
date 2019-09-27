@@ -1,4 +1,4 @@
 class Person
-  adele goldberg = new.Person
-  alan kay = new.Person
+  adele goldberg = Person.new
+  alan kay = Person.new
 end
