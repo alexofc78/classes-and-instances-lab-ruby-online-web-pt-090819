@@ -1,4 +1,59 @@
+#and this other
+class Person
+  adele_goldberg = new.Person
+  alan_kay = new.Person
+end
 
+
+
+// ♥ learn
+
+An error occurred while loading spec_helper.
+Failure/Error: adele_goldberg = new.Person
+
+NoMethodError:
+  undefined method `Person' for #<Person:0x0000000002b84230>
+# ./lib/person.rb:2:in `<class:Person>'
+# ./lib/person.rb:1:in `<top (required)>'
+# ./spec/spec_helper.rb:2:in `require_relative'
+# ./spec/spec_helper.rb:2:in `<top (required)>'
+
+An error occurred while loading ./spec/classes_and_instances_spec.rb.
+Failure/Error: adele_goldberg = new.Person
+
+NoMethodError:
+  undefined method `Person' for #<Person:0x0000000002cb3688>
+# ./lib/person.rb:2:in `<class:Person>'
+# ./lib/person.rb:1:in `<top (required)>'
+# ./spec/spec_helper.rb:2:in `require_relative'
+# ./spec/spec_helper.rb:2:in `<top (required)>'
+# ./spec/classes_and_instances_spec.rb:1:in `require'
+# ./spec/classes_and_instances_spec.rb:1:in `<top (required)>'
+
+An error occurred while loading ./spec/classes_and_instances_spec.rb.
+Failure/Error: adele_goldberg = new.Person
+
+NoMethodError:
+  undefined method `Person' for #<Person:0x0000000002cb3688>
+# ./lib/person.rb:2:in `<class:Person>'
+# ./lib/person.rb:1:in `<top (required)>'
+# ./spec/spec_helper.rb:2:in `require_relative'
+# ./spec/spec_helper.rb:2:in `<top (required)>'
+# ./spec/classes_and_instances_spec.rb:1:in `require'
+# ./spec/classes_and_instances_spec.rb:1:in `<top (required)>'
+No examples found.
+No examples found.
+
+
+Finished in 0.00038 seconds (files took 0.06543 seconds to load)
+0 examples, 0 failures, 2 errors occurred outside of examples
+
+Finished in 0.00038 seconds (files took 0.06543 seconds to load)
+0 examples, 0 failures, 2 errors occurred outside of examples
+
+
+[17:55:26] (master) classes-and-instances-lab-ruby-online-web-pt-090819
+// ♥
 # Classes And Instances Lab Ruby
 
 ## Objectives
